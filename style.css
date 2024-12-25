@@ -39,7 +39,7 @@ header, section, footer {
 h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /* 段落样式 */
@@ -53,10 +53,15 @@ ul, ol {
     margin-left: 20px;
 }
 
-
+header h1 {
+    font-size: 12px; /* 调整字体大小 */
+    color: #1e568f; /* 修改颜色，可以使用颜色代码 */
+    font-weight: bold; /* 字体加粗（可选） */
+    text-align: left; /* 居中（可选） */
+}
 /* Header Section */
 header {
-    padding: 20px;
+    border-bottom: none !important;
     text-align: left; /* 改为左对齐 */
     border-bottom: 2px solid #ddd;
 }
@@ -101,16 +106,16 @@ header {
 
 /* About Section */
 #about {
-    margin-top: 10px;
-    padding: 20px;
-    max-width: 1200px;
+    margin-top: 0px;
     margin: 0px auto;
 }
 
 #about h2 {
-    font-size: 1.5em;
+    border-bottom: 2px solid #ccc; /* 设置下划线的样式、粗细和颜色 */
+    font-size: 1.3em;
     color: #38403e;
     margin-bottom: 5px;
+    text-align: left;   
 }
 
 #about p {
@@ -150,7 +155,7 @@ header {
 
 .edu-details h3 {
     margin: 0 0 5px;
-    font-size: 1.1em;
+    font-size: 0.8em;
     color: #2c3e50;
 }
 
@@ -178,8 +183,9 @@ button {
 }
 
 #education h2 {
-    text-align: center;
-    font-size: 1.5em;
+    border-bottom: 2px solid #ccc; /* 设置下划线的样式、粗细和颜色 */
+    text-align: left;
+    font-size: 1.3em;
     color: #2c3e50;
     margin-bottom: 5px;
 }
@@ -196,20 +202,16 @@ button {
 }
 
 /* QS Rank Styling */
-.qs-rank {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #2980b9;
+.university-rank {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9em;
     margin-top: 5px;
-    margin-bottom: 10px;
-    letter-spacing: 0.5px;
+}
+.university-rank strong {
+    color: #333;
 }
 
-.qs-rank::before {
-    content: "QS Ranking: ";
-    font-weight: normal;
-    color: #7f8c8d;
-}
 
 
 .edu-logo-container {
@@ -228,9 +230,9 @@ button {
 }
 
 .edu-details h3 {
-    font-size: 1.5em;
-    color: #16a085;
-    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #0a74c6;
+    margin-bottom: 0px;
 }
 
 .edu-details p {
@@ -250,11 +252,19 @@ button {
 }
 
 
-/* Patents Section */
+/* publications Section */
 #publications h3 {
     color: #16a085;
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+#publications h2 {
+    border-bottom: 2px solid #ccc; /* 设置下划线的样式、粗细和颜色 */
+
+    color: #2c3e50;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 #publications ol {
@@ -283,10 +293,12 @@ button {
 }
 
 #conference h2 {
+    border-bottom: 2px solid #ccc; /* 设置下划线的样式、粗细和颜色 */
+
     color: #2c3e50;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 #conference h3 {
@@ -323,9 +335,11 @@ button {
 
 #patents h2 {
     color: #2c3e50;
-    font-size: 1.5em;
+    border-bottom: 2px solid #ccc; /* 设置下划线的样式、粗细和颜色 */
+
+    font-size: 1.3em;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 #patents h3 {
@@ -355,10 +369,11 @@ button {
 }
 
 #awards h2 {
+    border-bottom: 2px solid #ccc; /* 设置下划线的样式、粗细和颜色 */
     color: #2c3e50;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 #awards h3 {
